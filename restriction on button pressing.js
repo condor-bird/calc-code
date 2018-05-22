@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var button = $('.button-5');
 
 	/** доступно нажатий **/
-	var available = 5;
+	var available = 3;
 
 	function getCookie(name) {
 	  var data = document.cookie.match(new RegExp(
