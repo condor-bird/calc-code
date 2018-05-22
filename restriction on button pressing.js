@@ -35,7 +35,7 @@ $(document).ready(function(){
 	 button.on('click', function() {
 		
 		if (currentClick < available) {
-			currentClick = currentClick + 1;
+			currentClick++;
 			document.cookie = 'current_click_calc=' + currentClick;
 		}
 		
